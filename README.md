@@ -13,6 +13,7 @@ What is special about using `README.Rmd` instead of just `README.md`?
 You can include R chunks like so:
 
 ``` r
+
 summary(cars)
 #>      speed           dist       
 #>  Min.   : 4.0   Min.   :  2.00  
@@ -21,14 +22,6 @@ summary(cars)
 #>  Mean   :15.4   Mean   : 42.98  
 #>  3rd Qu.:19.0   3rd Qu.: 56.00  
 #>  Max.   :25.0   Max.   :120.00
-head(cars)
-#>   speed dist
-#> 1     4    2
-#> 2     4   10
-#> 3     7    4
-#> 4     7   22
-#> 5     8   16
-#> 6     9   10
 ```
 
 You’ll still need to render `README.Rmd` regularly, to keep `README.md`
