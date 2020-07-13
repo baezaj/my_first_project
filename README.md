@@ -21,6 +21,14 @@ summary(cars)
 #>  Mean   :15.4   Mean   : 42.98  
 #>  3rd Qu.:19.0   3rd Qu.: 56.00  
 #>  Max.   :25.0   Max.   :120.00
+head(cars)
+#>   speed dist
+#> 1     4    2
+#> 2     4   10
+#> 3     7    4
+#> 4     7   22
+#> 5     8   16
+#> 6     9   10
 ```
 
 You’ll still need to render `README.Rmd` regularly, to keep `README.md`
@@ -32,3 +40,10 @@ You can also embed plots, for example:
 
 In that case, don’t forget to commit and push the resulting figure
 files, so they display on GitHub\!
+
+``` r
+
+plot(x = cars$speed, y = cars$dist)
+```
+
+![](README_files/figure-gfm/unnamed-chunk-2-1.png)<!-- -->
